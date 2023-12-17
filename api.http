@@ -1,0 +1,33 @@
+# Get ALl Books
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+# Create Book
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "pages": 1170
+}
+
+# Update a book
+
+PUT http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Dark Tower",
+    "author": "Stephen King",
+    "year": 1982,
+    "pages": 1210
+}
+
+# Delete a book
+DELETE http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+

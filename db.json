@@ -1,0 +1,27 @@
+{
+  "books": [
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "year": 1954,
+      "pages": 1170,
+      "id": 1
+    },
+    {
+      "title": "Hary Potter",
+      "id": 2
+    },
+    {
+      "title": "My new book",
+      "id": 3
+    },
+    {
+      "title": "Goal Book",
+      "id": 5
+    },
+    {
+      "title": "Hary Potter",
+      "id": 6
+    }
+  ]
+}
